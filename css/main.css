@@ -1,0 +1,63 @@
+body{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    font: bold, bolder, italic, caption, icon, large;
+}
+.structural{
+    margin: 10px;
+    padding: 10px;
+}
+h1{
+    color:darkblue;
+    font-size: x-large;
+    
+}
+h2{
+    color: darkgreen;
+    font-size: larger;
+}
+main{
+    height: 70vh;
+}
+img{
+    border: 3px;
+    border-style: solid;
+    width:90%;
+    height:80%;
+}
+figure{
+    background-color: lightblue;
+    width: 45%;
+    height: 60%;
+    margin: auto;
+    padding: 10px;
+}
+#figure1{
+float: left;
+}
+#figure2{
+float: right;
+}
+section{
+    clear: both;
+}
+figcaption{
+    font-weight:700;
+    font-size: larger;
+    color: darkblue;
+    padding: 5px;
+}
+a{
+    color: darkgreen;
+}
+a:hover{
+    color: lightblue;
+}
+ul li{
+    list-style-type:square;
+    line-height: 50px;
+}
+header,footer{
+    background-color: lightblue;
+}
